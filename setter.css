@@ -28,21 +28,28 @@ body {
   border-radius: 5px;
   text-align: center;
   font-size: 3rem;
-  color:black;
-  
+  color: black;
 }
-.button{
-    display: flex;
-    justify-content: space-between;
+.button {
+  display: flex;
+  justify-content: space-between;
 }
-button{
-    background-color: white;
-    border: none;
-    outline: none;
-    width: 50px;
-    height: 20px;
-    color: white;
-    text-align: center;
-    padding: auto 10px;
-    background-color: black;
+button {
+  background-color: white;
+  border: none;
+  outline: none;
+  width: 50px;
+  height: 20px;
+  color: white;
+  text-align: center;
+  padding: auto 10px;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.back {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
 }
